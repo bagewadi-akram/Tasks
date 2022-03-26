@@ -1,0 +1,80 @@
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    .p1 {
+        margin-top: 170px;
+        font-size: 42px;
+    }
+    
+    p {
+        text-align: left;
+        font-size: 17px;
+    }
+    
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px;
+    }
+    
+    .container {
+        width: 17vw;
+        height: 38vh;
+        padding: 17px;
+        padding-top: 30px;
+        margin: 40px;
+        margin-top: 40px;
+        margin-bottom: -50px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.288);
+    }
+    
+    body {
+        color: rgb(33, 132, 224);
+        background-color: rgba(255, 255, 255, 0.226);
+    }
+    
+    nav {
+        font-size: 20px;
+        height: 9vh;
+        box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.425);
+    }
+    
+    .navbar-brand {
+        padding: 5px;
+        margin-top: -12px;
+        margin-left: 50px;
+    }
+    
+    .btn:nth-child(1) {
+        width: 100px;
+        margin: 18px;
+        margin-right: 30px;
+    }
+    
+    li {
+        margin-top: 10px;
+    }
+    
+    .badge {
+        font-size: 20px;
+        margin: 20px;
+        margin-top: -20px;
+        background-color: rgba(1, 1, 14, 0.705);
+        transform: rotate(-12deg);
+    }
+    
+    .glyph {
+        font-size: 60px;
+        margin-bottom: -20px;
+        color: rgb(1, 1, 32)
+    }
